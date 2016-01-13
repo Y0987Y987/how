@@ -74,9 +74,85 @@
 	
 	紅殻のパンドラ</br>紅殼的潘朵拉</br><div1>------------</div1></br>
 	<div2>2333333333333333333333333333333333333333333333333333333333333</br></br>
-	小視窗的浪漫</br></div></br></div2>
+	XXXXXXX</br></div></br></div2>
 	
 <p id="para1"><a href="http://www.k-pandora.com/" title="動畫官網" target="_blank">This is a paradise.</a></p> <!--註解、另開新視窗-->
 <p id="para1"><a href="https://www.youtube.com/watch?v=Hn2ZB9v22U4" title="pv" target="_blank">The view.</a>
+
+
+
+
+
+
+
+      <div class="container">
+        <h1>Hello, 追加的記事本</h1>
+
+
+      </div>
+    </div>
+        <label for="title" class="sr-only">標題MEOW</label>
+        <input type="email" id="title" class="form-control" placeholder="標題MEOW" required autofocus></br>
+        <div>
+        <label for="text" class="sr-only"></label>
+         <textarea id="text" style="height:300px" class="form-control" placeholder="內容"></textarea></br></div>
+         <button onclick="save()">儲存</button>
+         <button onclick="del()">清空</button>
+       </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+<div>
+<table id="list">
+</table>
+</div>
+
+
+
+
+<script>
+
+var oTitle = document.getElementById("title");
+var oText  = document.getElementById("text");
+var oList = document.getElementById("list");
+
+
+
+function save() {
+  var title = oTitle.value;
+  var text  = oText.value;
+  window.localStorage.setItem("notepad:"+title, text);
+  showList();
+}
+
+
+function del() {
+  var title = oTitle.value;
+  var text  = oText.value;
+  window.localStorage.clear("notepad:"+title, text);
+  showList();
+}
+
+function showList() {
+  var rowHtml = "";
+  for (var title in window.localStorage) {
+    if (title.startsWith("notepad:")) {
+      rowHtml += "<tr><td><a onclick=\"loadDoc('"+title+"')\">"+title.substring(8)+"</a></td></tr>"
+    }
+  }
+  oList.innerHTML = rowHtml;
+}
+
+function loadDoc(title) {
+  oTitle.value = title.substring(8);
+  oText.value  = window.localStorage.getItem(title);
+}
+
+
+</script>
+
+
+
 </body>
 </html>
