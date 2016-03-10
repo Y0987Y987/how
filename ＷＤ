@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="描述" />  <!--屬性=值-->
+    <meta name="keywords" content="關鍵字" />
+    <meta name="author" content="作者" />
+    <title>10秒後爆炸</title>
+</head>
+<body>
+
+  <h1></h1>
+    <p>ＫＭＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴ</p>                              <!--不支援跳行、空白-->
+    這是無標籤直接內文
+    <pre>                              <!--預先格式化，保留所有，跳行空白-->
+        ２
+        ３
+        ３
+    </pre>
+    <blockquote>ＫＫＫＫＫＫＫＫＫＫＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＭＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴ</blockquote>
+    <hr />　　　　<!--我是分隔線-->
+
+</body>
+</html>
