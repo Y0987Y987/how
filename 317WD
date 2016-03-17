@@ -1,1 +1,26 @@
+<ruby> <rt> <rb> 標音
+
+CSS(Cascading Style Sheets
+
+CH8
+
+選擇器   ---宣告---
+ body   (color : white ; background : red )
+        屬性 :   值 ;         2         2
+
+ <style type="text/css">
+
+    </style>
+    
+嵌入在標籤裡
+<body style ="color : white ; background : red">
+</body>
+
+
+
+
+CH9
+font-family(文字字型
+
+
 
