@@ -32,8 +32,23 @@ h1 {
 p.4 絕對大小 exp: large; small;
 
 <p style="font-size:20px"></p>
- <p style="font-size:50%"> </p>相對大小-->
+ <p style="font-size:50%"> </p><!--相對大小-->
  <p style="font-size:50%"> </p>
+
+<head>
+<style type="text/css">
+</head>
+
+9-2文字屬性
+text-indent首行縮排
+text-align 對齊
+text-decoration 文字裝飾
+letter-spacing 文字間距 333___333___3333
+text-transform(大小寫轉換
+white space
+text-shadow(文字陰影
+
+
 
 
 
