@@ -29,6 +29,12 @@ h1 {
     font-size: 2.5em; /* 40px/16=2.5em */
 }
 
+p.4 絕對大小 exp: large; small;
+
+<p style="font-size:20px"></p>
+ <p style="font-size:50%"> </p>相對大小-->
+ <p style="font-size:50%"> </p>
+
 
 
 
