@@ -22,5 +22,15 @@ CH8
 CH9
 font-family(文字字型
 
+p.9-3 單位支援
+px:plxels
+em
+h1 {
+    font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+
+
+
 
 
