@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="描述" />  <!--屬性=值-->
+    <meta name="keywords" content="關鍵字" />
+    <meta name="author" content="作者" />
+    <title>10秒後爆炸</title>
+
+    <style type="text/css">
+        body{color:red;}                        /*串接樣式*/
+        p{color:gold;font:bold 50px 標楷體;}
+    </style>
+
+
+</head>
+
+<body style=" font-size:2em;">
+    <h1></h1>
+    <p></p>                <!--不支援跳行、空白-->
+
+    <h1 style="color:blue;text-decoration:line-through; font-size : 50px;font-family:新細明體; font-style:italic;font-weight:bold;">ＫＭＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴ</h1>      
+     <!--CSS數字要有單位、分號習慣; 字型樣式word裡;斜體;粗體-->
+    <p style="text-shadow:20px 12px 2px;font:bold 50px 標楷體;">AQQQQQQQQQQQQQQ </p> 
+     <!--文字陰影;font:連續設定 空白隔開-->
+
+    <p style=" font-size:100%;text-align:right;">555555555555555555555555555</p>
+      <!--父層相對大小2em;對齊-->
+    
+     這是無標籤直接內文
+   
+    
+     <pre>                              <!--預先格式化，保留所有，跳行空白-->
+        ２
+        ３
+        ３
+    </pre>
+
+    <hr />　　　　<!--我是分隔線-->
+</body>
+</html>
