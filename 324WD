@@ -1,5 +1,49 @@
-<ol> <li> ordered litsts(numbered)
-    <li>  
-    <li>
-    <li>
-ul li
+清單模式
+<ol> <li> ordered lists(numbered)
+    有編號<li>  
+    <li>dd</li>
+    <li>dd</li>
+    </ol>
+    無編號
+    
+<ul>unordered lists
+<li>sss</li>
+<li>sss</li>
+</ul> 
+
+定義清單
+<dl>
+<dt>
+<dd>
+
+3-6 提示文字 title 屬性
+無障礙網頁
+
+
+9-21
+
+test shadow CSS3
+
+ch4 超連結
+
+絕對路徑   伺服器
+<a href="‪C:\Users\322\Desktop\f.jpg">GGG</a> 
+
+
+相對路徑
+文件相對
+伺服器相對
+
+aa/bb/cc/sk.cx
+../../dd/ss.sx
+<a href ="#" 書籤 name or id 
+top 回到頂端
+
+數位教學平台
+
+
+
+
+
+
+
