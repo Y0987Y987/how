@@ -48,7 +48,8 @@ text-transform(大小寫轉換
 white space
 text-shadow(文字陰影
 
-<!--span容器包容 不跳行-->
+
+<!--span容器包容 不跳行 div 會跳行-->
  <p style="font-family:標楷體;font-size:20px;">
     來自古典芭蕾舞國度的<span style="color:purple;">『俄羅斯明星節慶芭蕾舞團』</span>再度來台，帶來了柴可夫斯</br>
     基三大芭蕾<span style="color:blue;text-decoration:underline">≪胡桃鉗≫</span>、<span style="color:blue;text-decoration:underline">
