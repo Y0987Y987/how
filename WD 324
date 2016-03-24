@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="描述" />  <!--屬性=值-->
+    <meta name="keywords" content="關鍵字" />
+    <meta name="author" content="作者" />
+    <title>10秒後爆炸</title>
+
+</head>
+
+<body style="font-family:標楷體;font-size:24px;"> 
+    
+
+    <span><a id="top"></a>iamtop</span>
+   <ul>
+       <li><a href="#黑">KKK</a></li>
+       <li><a href="#面">MMM</a></li>
+       <li><a href="#路">TTT</a></li>
+   </ul>
+
+
+    <hr />　　　　<!--我是分隔線-->
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+
+<p><a id="黑" href="http://hack.g0v.tw/project" target="_blank">KKK</a>
+    KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+        <a id="面">MMM</a>
+        KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+    </p><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+        <a id="路">TTT</a>
+        KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+    </p>
+    <a href="#top">top</a>
+</body>
+</html>
