@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="描述" />  <!--屬性=值-->
+    <meta name="keywords" content="關鍵字" />
+    <meta name="author" content="作者" />
+    <title>10秒後爆炸</title>
+
+</head>
+
+<body style="font-family:標楷體;font-size:24px;"> 
+    <span><a id="top"></a>iamtop</span>
+    <h1>OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</h1>
+    <p style="color:rgba(255, 0, 0, 0.7); background-image:url(f.jpg); background-position:70% 80%; background-repeat:no-repeat; "> <!--a透明度-->
+    <img src="aa.jpg" width="300" align="left" style="opacity:1;"/><!--opacity透明度-->
+        ssss
+        ssssss
+        ssssss   ssss
+    ssssss
+    ssssss   ssss
+    ssssss
+    ssssss   ssss
+    ssssss
+    ssssss   ssss
+    ssssss
+    ssssss  </p>    
+ 
+   <!--
+    <figure>
+        <img />
+<figcaption>圖片說明</figcaption>
+    </figure>-->
+
+
+
+    <hr />　　　　<!--我是分隔線-->
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <a href="#top">top</a>
+</body>
+</html>
