@@ -1,0 +1,39 @@
+IEtester IE8
+ch4
+<a href
+
+<img src="aa.jpg"  /> 支援絕對相對路徑 width height
+// 靠左文字補上
+    <p>   
+    <img src="aa.jpg" width="300" align="left" style="opacity:0.5;"/> <!--opacity透明度CSS3-->
+        好吧，現在勒索病毒越來越誇張了，為了散布病毒無所不用其極，就連許多人常用的Dropbox都成為散佈平台，而且這次的病毒非常的凶狠，中獎之後是直接讓你電腦無法開機的，請各位萬分小心。
+
+        根據趨勢科技的官方網站表示，近日竄起了一個勒索病毒Petya，他異常凶狠，電腦只要感染了Petya，他會連帶修改電腦的主要開機磁區（MBR），讓使用者無法正常開機，開機後只會看到電腦螢幕呈現一個用「$」符號組成骷髏頭的紅色畫面。
+    </p>    
+    
+<figure>
+<img/>
+<figcaption> 圖片說明</figcaption></figure>
+
+<canvas>繪圖區
+
+
+CH10色彩背景顏色表格
+<color>前景色彩
+<p style="color:red;">SSS </p>
+color:rbga(0,0,0,0.5) 
+opacity透明度
+10-4
+style="background-color:;"
+style="background-image"  position repeat 
+
+
+
+
+
+
+
+
+
+
+
