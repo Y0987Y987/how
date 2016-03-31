@@ -27,9 +27,32 @@ opacity透明度
 style="background-color:;"
 style="background-image"  position repeat 
 
+11-9
+style="board:;"width style color/ left right     邊線
 
+CH5 表格 table
+ <table>   行列
+ <tr>
+    <td> </td>    n*n以多決定
+    <td> </td>
+    <td> </td>
+ </tr>
+ <tr>
+    <td> </td>
+    <td> </td>
+ </tr>
+</table>
+<table board>
+or style board
 
+<caption> 表格標題
 
+5-4
+
+colspan
+行合併 擴展
+rowspan
+列合併
 
 
 
