@@ -6,6 +6,20 @@ bprder-spacing 表格框線間距
 
 empty-cells 隱藏空白儲存格
 
+table {width} 限定寬度
+
+CH8
+CSS head style
+8-4-1 選擇器的類型
+*萬用 body
+(套用).類別class  <>
+(單一)#ID  id=
+
+font-family :1,2,3
+第一順位，若無向下
+
+font-face
+src url 下載字形
 
 
 
