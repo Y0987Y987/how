@@ -42,7 +42,7 @@ CH5 表格 table
     <td> </td>
  </tr>
 </table>
-<table board>
+<table board> 邊線
 or style board
 
 <caption> 表格標題
