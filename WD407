@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="描述" />  <!--屬性=值-->
+    <meta name="keywords" content="關鍵字" />
+    <meta name="author" content="作者" />
+    <title>10秒後爆炸</title>
+    <style>
+        table {border-collapse:collapse;border:5px solid black;}
+        table tr th {border-collapse:collapse;border:5px solid black;}
+        table tr td  {border-collapse:collapse;border:5px solid black;}
+        .backgroundcolor {background-color:red;} /*類別選擇器*/
+        #footer {background-color:gray;}
+    </style>
+</head>
+
+<body style="font-family:標楷體;font-size:24px;background-image:url(pen01.gif); background-repeat:repeat-x;">
+
+<table>
+    <tr>
+        <th class="backgroundcolor">222</th>
+        <td>333</td>
+        <td>333</td>
+        <td>222</td>
+    </tr>
+    <tr>
+        <th>222</th>
+        <td class="backgroundcolor">333</td>
+        <td>333</td>
+        <td>333</td>
+    </tr>
+    <tr>
+    <th>2</th>
+    <td>333</td>
+    <td>333</td>
+    <td>333</td>
+    </tr>
+    <tr>
+        <th id="footer">2</th>
+        <td>2</td>
+        <td id="footer">2</td>
+        <td>2</td>
+    </tr>
+    <tr id="footer">
+        <th>2</th>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr id="footer">
+        <th colspan="4">99999999999999999999999</th>
+    </tr>
+</table>       
+
+
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+        <a id="面" href="http://imgur.com/a/jfxda/all" target="_blank">MMM</a>
+        KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+    </p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+        <a id="路">TTT</a>
+        KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+    </p>
+    <a href="#top">top</a>
+</body>
+</html>
