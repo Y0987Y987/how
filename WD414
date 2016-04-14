@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="網頁設計作業" />  <!--屬性=值-->
+    <meta name="keywords" content="雙馬尾以外的髮型都應該廢除" />
+    <meta name="author" content="110410527" />
+    <title>10秒後爆炸</title>
+    <style type="text/css">
+        #header {border:5px dashed red;width:200px;}
+        #content {border:5px dashed red;width:200px;}
+        #content #left {border:3px solid red;float:left;width:94px;height:200px;}
+        #content #right {border:3px solid red;float:left;width:94px;height:200px;}
+        #footer {border:5px dashed red;width:200px;}
+    </style>
+</head>
+
+
+<body>
+    <pre style="border:5px solid red;">           <!--pre 保留格式、padding: top right buttom left or 上下 左右-->
+        2015年12月號 - NewType  - http://imgur.com/a/yX9pd
+        2016年01月號 - NewType  - http://imgur.com/a/9z8CR
+        2016年02月號 - NewType  - http://imgur.com/a/YeqSN
+        2016年03月號 - NewType  - http://imgur.com/a/dsJZ0
+        2016年04月號 - NewType  - http://imgur.com/a/n8nZt
+        2016年05月號 - NewType  - http://imgur.com/a/oH0Ku
+    </pre>
+
+    <div id="header"><img src="f.jpg" style="padding-left:30%;" /></div>
+    <div id="content">
+        <div id="left">
+            <p style="padding: 0px 10px;">
+            66666666666666666666666666666666666
+            66666666666666666666666666666666666
+            
+            </p>
+        </div>
+
+        <div id="right"></div>
+
+        <div style="clear:both;"></div>
+    </div>
+    <div id="footer">3</div>
+    </body>
+</html>
