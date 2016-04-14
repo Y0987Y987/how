@@ -1,0 +1,55 @@
+clinet server
+
+CH11
+
+box model
+content padding border margin
+
+ <pre style="border:5px solid red; padding: 100px 120px 300px 400px ; margin:50px">           <!--pre 保留格式、padding: top right buttom left or 上下 左右 or all-->
+        2015年12月號 - NewType  -                                             <!--padding 內容與邊線之間-->
+        2016年01月號 - NewType  -                                         <!--margin 邊線與邊界之間-->
+        2016年02月號 - NewType  - 
+        2016年03月號 - NewType  - 
+        2016年04月號 - NewType  - 
+        2016年05月號 - NewType  - 
+    </pre>
+
+<p style="margin:0px 0px 0px -30;"></p>  <!--消除預設margin，避免瀏覽器預設不同，負數有效-->
+<h1 style="margin:0;"></h1>
+
+11-5 定位方式
+display  
+height width top buttom left right
+max-                                    <!--max min限制大小-->
+min-
+
+position                  <!--改變座標，而非架構-->
+relative <!--相對架構位置，保留空間-->
+absolutive <!--絕對位置，不保留空間-->
+fixed  <!--固定，隨軸移動-->
+
+
+排版設計
+header
+content
+footer
+
+
+div  會自動跳行
+span
+
+float 浮起 可使後面接續
+
+div left
+div right
+div clear:both 結束浮動
+
+
+
+
+
+
+
+
+
+
