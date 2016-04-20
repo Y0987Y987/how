@@ -9,12 +9,12 @@
     <title>全職履歷表</title>
 
     <style>
-      div {font-family: cursive,DFKai-sb; }
-      .underline { padding-bottom:5px; border-bottom:2px solid #000000;}
-      .shuli{ text-align: center; line-height: 18px; opacity: 0.5;}
-      .bg {background-image:url(fa.jpg);
-            background-repeat:no-repeat;
-            background-size:cover;
+      div {font-family: cursive,DFKai-sb; }                                     /*字型*/
+      .underline { padding-bottom:5px; border-bottom:2px solid #000000;}    /*加底線:底邊框內空白5px，底邊框2px*/
+      .shuli{ text-align: center; line-height: 18px; opacity: 0.5;}           /*豎立:文字置中，行高18px，透明度50%*/
+      .bg {background-image:url(fa.jpg);                                    /*背景圖*/
+            background-repeat:no-repeat;                                    /*不重複*/
+            background-size:cover;                                         /*延展至邊界，隨邊界縮放*/
             }
     </style>
    
@@ -28,14 +28,15 @@
     </div>
     
 
-    <div style=" padding-top:2%;">
+    <div style=" padding-top:2%;">      <!--邊線內上空白2%-->
         
-        <table border="2" style="width:100%; height:100%;" class="bg">
-            <tr>
+        <table border="2" style="width:100%; " class="bg">  <!--表格-->
+            <tr>                                            <!--欄，列-->                                      <!--列合併-->
                 <td>※(一)(二)項全為必填欄位 求職客服中心 電話：(02)2311-3731 信箱：powersecurity@se.360.cn</td><td rowspan="3" class="shuli">(二)<br/>2<br/>吋<br/>顏<br/>值<br/>評<br/>分</td>
             </tr>
-            <tr><td>(一)、個人基本資料</td></tr>
-            <tr><td>國&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍：□中華民國國籍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;□外籍人士  ( 國籍：______________________________&nbsp;</span>)</td></tr>
+            <tr><td>(一)、個人基本資料</td></tr>   <!--&nbsp;空白字元-->
+            <tr><td>國&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍：□中華民國國籍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;□外籍人士  ( 國籍：____________&nbsp;</span>)</td></tr>
+            <!--欄合併-->                                  <!--絕對位置-->
             <tr><td colspan="2">身分證字號 ：<span style="position:absolute;right:8px;opacity:0.5;">（請據實填寫，在履歷表中不顯示）</span></td></tr>
             <tr><td>姓      名 ：	</td><td>性       別：　□男性　□女性</td></tr>
             <tr><td>出 生 日 期： 民國 　　　年 　　　月 　　　日</td><td>婚 姻 狀 況：  □單身　□已婚　□不提供</td></tr>
@@ -43,7 +44,7 @@
             <tr><td>行 動 電 話：</td><td>聯 絡 電 話：(　　)</td></tr>
             <tr><td>電 子 郵 件：</td><td>聯 絡 時 間:______時 至______時&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;□ 隨時</td></tr>
             <tr><td colspan="2">聯 絡 地 址：______市/縣______市/區/鄉/鎮____________路/街/村/里___段___巷___弄___號___樓之__</td></tr>
-           
+            <tr><td colspan="2" style="height:200px;">備註:</td></tr>
         </table>
     </div>
 </body>
