@@ -9,12 +9,12 @@
     <title>南極的精靈</title>
     <style>
       .a {color:#0202da;}
-      .b {color:#996633; text-decoration: none;}
+      .b {color:#996633; text-decoration: none;}  /*文字無裝飾*/
     </style>
 </head>
 
-<body style="background-image:url(pen01.gif);">
-    <p align="center">
+<body style="background-image:url(pen01.gif);">     <!--背景圖片:url(路徑)-->
+    <p align="center">          <!--排版-->
     <img src="pen02.gif">
     </p>
     
@@ -22,19 +22,19 @@
     世界上約有17種企鵝，分布在南半球，佔南極地區85%的海鳥數量，換句話說，北半球並沒有企鵝。企鵝常以極大數目的族群出現，牠們雖屬鳥類，卻不會飛行，主食是小魚及磷蝦，天敵是海豹及殺人鯨和人類，而賊鷗會攻擊其幼雛和捕食企鵝的蛋。
 </p>
     
-   <ul>
+   <ul>         <!--清單-->
        <li><a href="#王" class="b">帝王企鵝</a></li>
        <li><a href="#跳" class="b">跳岩企鵝</a></li>
        <li><a href="#條" class="b">頰條企鵝</a></li>
    </ul>
-   <p style="background-color:#ffcc00; color:#ffffff;">
-   <marquee direction="right"  scrollamount="30">人間之愛、大地之美，讓我們共賞南極的可愛精靈!。^_^。</marquee>
+   <p style="background-color:#ffcc00; color:#ffffff;">  <!--背景顏色，內文顏色-->
+   <marquee direction="right"  scrollamount="10"><b>人間之愛、大地之美，讓我們共賞南極的可愛精靈!。^_^。</b></marquee>  <!--跑馬燈，方向，捲動速度-->
    </p> 
    
    
      <div class="b">
-      <img border="3" src="c.jpg" align="left" width="160px" height="160px">
-      <p class="a"><a name="王"><b>帝王企鵝</b></a></p>
+      <img border="3" src="c.jpg" align="left" width="160px" height="160px">        <!--圖片，邊框-->
+      <p class="a"><a name="王"><b>帝王企鵝</b></a></p>                          <!--<b> html粗體-->
        帝王企鵝是體型最大的企鵝，其外表的特徵是眼睛旁及脖子處有亮黃色或亮橘色的羽毛，看起來雍容華貴。牠們是為一無須做季節性遷移的高等溫血動物，目前在南極大陸沿岸有42個棲息地，總數約40萬隻，是南極地區樹木最少的企鵝。
      </div>
      <br/><br/><br/><br/><br/><br/>
