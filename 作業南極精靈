@@ -9,7 +9,7 @@
     <title>南極的精靈</title>
     <style>
       .a {color:#0202da;}
-      .b {color:#996633;}
+      .b {color:#996633; text-decoration: none;}
     </style>
 </head>
 
@@ -23,9 +23,9 @@
 </p>
     
    <ul>
-       <li><a href="#王">帝王企鵝</a></li>
-       <li><a href="#跳">跳岩企鵝</a></li>
-       <li><a href="#條">頰條企鵝</a></li>
+       <li><a href="#王" class="b">帝王企鵝</a></li>
+       <li><a href="#跳" class="b">跳岩企鵝</a></li>
+       <li><a href="#條" class="b">頰條企鵝</a></li>
    </ul>
    <p style="background-color:#ffcc00; color:#ffffff;">
    <marquee direction="right"  scrollamount="30">人間之愛、大地之美，讓我們共賞南極的可愛精靈!。^_^。</marquee>
