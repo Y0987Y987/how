@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>我的首頁</title>
+    <script type="text/javascript">
+        function scale() {
+            var c1 = document.getElementById("font1");
+            c1.size++;
+        }
+        function add() {
+            var c1 = document.getElementById("input1");
+            var c2 = document.getElementById("input2");
+            var c3 = document.getElementById("input3");
+            var cal = document.getElementById("select1");
+            if (cal.options.selectedIndex == 0) c3.value = parseInt(c1.value) + parseInt(c2.value);
+            else if (cal.options.selectedIndex == 1) c3.value = parseInt(c1.value) - parseInt(c2.value);
+        }
+    </script>
+</head>
+<body>
+    <font id="font1" size="1" onclick="javascript: scale();"><h1>國立金門大學</h1></font>
+    <label>A </label><input id="input1" type="text" value="" style="width:50px;" />
+    <select id="select1">
+        <option>+</option>
+        <option>-</option>
+        <option>X</option>
+        <option>/</option>
+    </select>
+    <label> B </label><input id="input2" type="text" value="" style="width:50px;" />
+    <label> = </label><input id="input3" type="text" value="" style="width:50px;" />
+    <input type="button" value="計算" onclick="javascript: add();" />
+</body>
+</html>
