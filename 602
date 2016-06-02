@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>我的首頁</title>
+    <script type="text/javascript">
+        var dirtop = 0;
+        var dirleft = 0;
+        var myVar;
+        function Changecolor1() {
+            var c = document.getElementById("input1");             //alert有無作用輕鬆DEBUG
+            alert("test");
+            c.style.color = "red";
+            c.style.fontSize = "36px";
+            var t = document.getElementById("tee");
+            if (dirtop > 10) dirtop -= 10;
+            t.style.paddingTop = dirtop + "px";
+            
+        }
+        
+        
+        function myTimer() {
+            dirtop += 5;
+            document.getElementById("tee").style.marginTop = dirtop.toString() + 'px';
+        }
+
+        
+        var myVa = setInterval(mTime, 200);
+        function mTime() {
+            dirleft += 5;
+            document.getElementById("tee").style.marginLeft = dirleft.toString() + 'px';
+        }
+        /*innerHTML*/
+
+        function TimerStart() {                     //開始
+            myVar = setInterval(myTimer, 200)
+        }
+        
+        function TimerStop() {                      //結束
+            clearInterval(myTimer)
+        }
+
+        function Changecolor2() {
+            var c = document.getElementById("input2");             //alert有無作用輕鬆DEBUG
+            alert("test");
+            c.style.color = "blue";
+            c.style.fontFamily = "標楷體";
+            var t = document.getElementById("tee");
+            dirtop += 10;
+            t.style.paddingTop = dirtop + "px";
+        }
+        function Changecolor3() {
+            var c = document.getElementById("input3");             //alert有無作用輕鬆DEBUG
+            alert("test");
+            c.style.color = "red";
+            c.style.fontSize = "36px";
+            var t = document.getElementById("tee");
+            if (dirleft > 10) dirleft -= 10;
+            t.style.paddingLeft = dirleft + "px"
+        }
+        function Changecolor4() {
+            var c = document.getElementById("input4");             //alert有無作用輕鬆DEBUG
+            alert("test");
+            c.style.color = "red";
+            c.style.fontSize = "36px";
+            var t = document.getElementById("tee");
+            dirleft += 10;
+            t.style.paddingLeft = dirleft + "px";
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="tee">FUCKNQU</h1>
+    <input id="input1" onclick="javascript: Changecolor1()" type="button" value="up" />
+    <input id="input2" onclick="javascript: Changecolor2();" type="button" value="down" />
+    <input id="input3" onclick="javascript: Changecolor3()" type="button" value="left" />
+    <input id="input4" onclick="javascript: Changecolor4()" type="button" value="right" />
+</body>
+</html>
