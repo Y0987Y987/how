@@ -1,0 +1,16 @@
+j Query
+
+Download the compressed, production jQuery 3.0.0    放到網頁目錄下
+
+Download the uncompressed, development jQuery 3.0.0
+
+Using jQuery with a CDN     雲端資源的利用
+CDNs can offer a performance benefit by hosting jQuery on servers spread across the globe. 
+This also offers an advantage that if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, 
+it won't have to be re-downloaded.
+
+jqueryUI　　　直接利用
+
+www.wix.com  線上編輯網頁練習
+
+
