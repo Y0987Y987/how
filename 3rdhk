@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />      <!--Metadata is data (information) about data.-->
+    <meta name="description" content="網頁設計作業" />  <!--屬性=值-->
+    <meta name="keywords" content="雙馬尾以外的髮型都應該廢除" />
+    <meta name="author" content="110410527" />
+    <title>10秒後爆炸</title>
+    <style type="text/css">
+        #header {border:5px dashed red;width:327px;}
+        #content {width:336px;}
+        #content #left {border:5px dashed red;float:left;width:158px;height:200px;}
+        #content #right {border:5px dashed red;float:left;width:158px;height:200px;}
+        #footer {border:5px dashed red;width:327px;}
+    </style>
+</head>
+
+
+<body>
+
+
+    <div id="header"><img src="f.jpg"/></div>
+    <br/>
+    <div id="content">
+        <div id="left">
+            <pre>
+1
+            2</pre>
+        </div>
+
+        <div id="right">3<p>author:110410527</p><p>版型設計作業</p></div>
+
+        <div style="clear:both;"></div>
+    </div>
+    <br/>
+    <div id="footer">I am footer!</div>
+    </body>
+</html>
